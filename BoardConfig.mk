@@ -93,6 +93,7 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # Sepolicy
 include device/mediatek/sepolicy/sepolicy.mk
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
