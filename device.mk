@@ -45,5 +45,9 @@ PRODUCT_SHIPPING_API_LEVEL := 27
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/cereus/cereus-vendor.mk)
