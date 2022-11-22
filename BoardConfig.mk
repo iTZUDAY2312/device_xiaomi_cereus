@@ -100,6 +100,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE += $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # Inherit the proprietary files
 include vendor/xiaomi/cereus/BoardConfigVendor.mk
