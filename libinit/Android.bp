@@ -1,0 +1,15 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "libinit_cereus",
+    srcs: ["init_cereus.cpp"],
+    recovery_available: true,
+    include_dirs: [
+        "system/libbase/include",
+        "system/core/init"
+    ]
+}
