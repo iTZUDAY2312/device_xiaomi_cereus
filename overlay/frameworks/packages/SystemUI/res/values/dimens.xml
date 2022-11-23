@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_content_padding">3px</dimen>
+    <dimen name="rounded_corner_radius">24px</dimen>
+    <dimen name="rounded_corner_content_padding">3px</dimen>
+</resources>
