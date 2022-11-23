@@ -50,6 +50,11 @@ TARGET_SCREEN_DENSITY := 320
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_cereus
 TARGET_RECOVERY_DEVICE_MODULES := libinit_cereus
 
+# Input
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
+    $(DEVICE_PATH)/configs/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl
+
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 1
 BOARD_KERNEL_BASE := 0x40000000
