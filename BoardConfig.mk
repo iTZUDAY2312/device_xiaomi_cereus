@@ -104,7 +104,7 @@ include device/mediatek/sepolicy/sepolicy.mk
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # Inherit the proprietary files
