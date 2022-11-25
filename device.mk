@@ -40,6 +40,14 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     WifiOverlay
 
+# IMS
+PRODUCT_PACKAGES += \
+    mtk-ims-telephony
+
+# RCS
+PRODUCT_PACKAGES += \
+    RcsService
+
 # Product characteristics
 PRODUCT_CHARACTERISTICS := default
 
