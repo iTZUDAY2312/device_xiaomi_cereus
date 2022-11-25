@@ -35,6 +35,11 @@ PRODUCT_PACKAGES += \
     FpsInfoOverlay \
     ScreenRecordOverlay
 
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay \
+    WifiOverlay
+
 # Product characteristics
 PRODUCT_CHARACTERISTICS := default
 
