@@ -21,6 +21,14 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# RROs 
+PRODUCT_PACKAGES += \
+    RoundedCornerFW \
+    RoundedCornerSysUI \
+    BatteryHealthOverlay \
+    FpsInfoOverlay \
+    ScreenRecordOverlay
+
 # Product characteristics
 PRODUCT_CHARACTERISTICS := default
 

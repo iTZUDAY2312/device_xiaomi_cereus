@@ -1,0 +1,9 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="nav_content_padding">0dp</dimen>
+    <dimen name="rounded_corner_radius">11dp</dimen>
+    <dimen name="rounded_corner_content_padding">4dp</dimen>
+    <dimen name="status_bar_extra_padding">4dp</dimen>
+</resources>
