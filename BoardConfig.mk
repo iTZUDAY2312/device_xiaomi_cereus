@@ -122,6 +122,9 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 include device/mediatek/sepolicy/sepolicy.mk
 SELINUX_IGNORE_NEVERALLOWS := true
 
+# Treble
+BOARD_VNDK_VERSION  := current
+
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE += $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
